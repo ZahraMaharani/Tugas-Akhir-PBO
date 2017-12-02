@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillahta.Sewa2Controller">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="28.0" prefHeight="340.0" prefWidth="299.0" style="-fx-background-color: #645454;">
+         <children>
+            <Label layoutX="23.0" layoutY="24.0" text="Total Biaya Sewa : " textFill="#f8f8f8">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXTextArea fx:id="hasil" editable="false" layoutX="28.0" layoutY="70.0" maxWidth="244.0" minWidth="244.0" prefHeight="106.0" prefWidth="244.0" />
+            <Label layoutX="23.0" layoutY="199.0" text="Cara Pembayaran : " textFill="#f5f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="transfer" layoutX="15.0" layoutY="236.0" mnemonicParsing="false" text="Transfer (0455631267-BNI An. Zahra Maharani)" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="pilihan" />
+               </toggleGroup>
+            </RadioButton>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="exit" layoutX="467.0" layoutY="368.0" onAction="#exit" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: #a15959;" text="EXIT" textFill="#101010" />
+      <JFXButton fx:id="home" layoutX="528.0" layoutY="368.0" onAction="#home" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: #a15959;" text="HOME" textFill="#101010" />
+      <JFXButton fx:id="submit" layoutX="400.0" layoutY="368.0" onAction="#submit" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #a15959;" text="SUBMIT" textFill="#101010" />
+      <AnchorPane layoutX="341.0" layoutY="28.0" prefHeight="317.0" prefWidth="234.0" style="-fx-background-color: #645454;">
+         <children>
+            <Label layoutX="25.0" layoutY="28.0" text="Jaminan Anda : " textFill="#fcfafa">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="62.0" text="Jaminan bisa berupa KK, SIM, STNK, KTP," textFill="#f8f4f4" />
+            <Label layoutX="11.0" layoutY="79.0" />
+            <Label layoutX="11.0" layoutY="79.0" text="Kartu Pelajar. Minimal terdapat 2 jaminan" textFill="#fffbfb" />
+            <JFXTextArea fx:id="jaminan" layoutX="23.0" layoutY="115.0" maxWidth="299.0" minWidth="165.0" prefHeight="188.0" prefWidth="192.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

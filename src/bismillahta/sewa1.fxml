@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="416.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillahta.Sewa1Controller">
+   <children>
+      <AnchorPane layoutX="36.0" layoutY="29.0" prefHeight="349.0" prefWidth="549.0" style="-fx-background-color: #645454;">
+         <children>
+            <ImageView fitHeight="110.0" fitWidth="82.0" layoutX="14.0" layoutY="9.0">
+               <image>
+                  <Image url="@carrier.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="102.0" fitWidth="97.0" layoutX="14.0" layoutY="124.0">
+               <image>
+                  <Image url="@tenda.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="102.0" fitWidth="97.0" layoutX="14.0" layoutY="233.0">
+               <image>
+                  <Image url="@nesting.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="72.0" layoutX="288.0" layoutY="9.0">
+               <image>
+                  <Image url="@matras.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="72.0" layoutX="288.0" layoutY="87.0">
+               <image>
+                  <Image url="@sb.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="72.0" layoutX="288.0" layoutY="181.0">
+               <image>
+                  <Image url="@sandal.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="81.0" fitWidth="72.0" layoutX="288.0" layoutY="262.0">
+               <image>
+                  <Image url="@sepatu.jpg" />
+               </image>
+            </ImageView>
+            <JFXCheckBox fx:id="c" layoutX="134.0" layoutY="21.0" text="Carrier" textFill="#fcfcfc" unCheckedColor="#ebe2e2" />
+            <JFXCheckBox fx:id="t" layoutX="134.0" layoutY="131.0" text="Tenda" textFill="#f2efef" unCheckedColor="#f8f7f7" />
+            <JFXCheckBox fx:id="n" layoutX="134.0" layoutY="247.0" text="Nesting" textFill="#f5f4f4" unCheckedColor="#f5f4f4" />
+            <JFXCheckBox fx:id="m" layoutX="386.0" layoutY="21.0" text="Matras" textFill="#f2eeee" unCheckedColor="#f5f3f3" />
+            <JFXCheckBox fx:id="sb" layoutX="386.0" layoutY="95.0" text="Sleeping Bag" textFill="#f5f3f3" unCheckedColor="#f5f3f3" />
+            <JFXCheckBox fx:id="sd" layoutX="386.0" layoutY="191.0" text="Sandal Trekking" textFill="#f8f5f5" unCheckedColor="#fcfafa" />
+            <JFXCheckBox fx:id="sp" layoutX="386.0" layoutY="276.0" text="Sepatu Trekking" textFill="#fffafa" unCheckedColor="#fcf9f9" />
+            <JFXTextField fx:id="carrier" layoutX="111.0" layoutY="41.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="tenda" layoutX="119.0" layoutY="148.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="nesting" layoutX="119.0" layoutY="269.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="matras" layoutX="364.0" layoutY="41.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="sleep" layoutX="364.0" layoutY="116.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="sandal" layoutX="364.0" layoutY="211.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+            <JFXTextField fx:id="sepatu" layoutX="364.0" layoutY="293.0" promptText="Jumlah" unFocusColor="#f8f4f4" />
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="next" layoutX="403.0" layoutY="384.0" onAction="#next" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: #a15959;" text="NEXT" textFill="#101010" />
+      <JFXButton fx:id="home" layoutX="464.0" layoutY="384.0" onAction="#home" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: #a15959;" text="HOME" textFill="#101010" />
+      <JFXButton fx:id="exit" layoutX="527.0" layoutY="384.0" onAction="#exit" prefHeight="17.0" prefWidth="51.0" style="-fx-background-color: #a15959;" text="EXIT" textFill="#101010" />
+      <JFXTextField fx:id="hari" layoutX="36.0" layoutY="381.0" promptText="Jumlah Hari Sewa" style="-fx-background-color: #a15959;" />
+   </children>
+</AnchorPane>

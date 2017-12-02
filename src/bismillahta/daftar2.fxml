@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="615.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillahta.Daftar2Controller">
+   <children>
+      <ImageView fitHeight="585.0" fitWidth="429.0" layoutX="67.0" layoutY="15.0">
+         <image>
+            <Image url="@andre-benz-283764.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="35.0" text="Perlengkapan">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="82.0" layoutY="79.0" opacity="0.5" prefHeight="504.0" prefWidth="401.0" style="-fx-background-color: #312F2F;">
+         <children>
+            <JFXCheckBox fx:id="satu" layoutX="14.0" layoutY="28.0" text="Carrier" textFill="#fcf7f7" unCheckedColor="#f8f6f6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <Label layoutX="259.0" layoutY="4.0" text="Jumlah" textFill="#fcfcfc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXCheckBox fx:id="dua" layoutX="14.0" layoutY="79.0" text="Trash Bag" textFill="#f8f8f8" unCheckedColor="#f8f5f5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="tiga" layoutX="14.0" layoutY="132.0" text="Nesting" textFill="#f8f5f5" unCheckedColor="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="empat" layoutX="14.0" layoutY="187.0" text="Butana" textFill="#f8f6f6" unCheckedColor="#f8f7f7">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="lima" layoutX="14.0" layoutY="244.0" text="Makanan Instan" textFill="#fffdfd" unCheckedColor="#f2efef">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="enam" layoutX="14.0" layoutY="300.0" text="Tenda" textFill="#f5f3f3" unCheckedColor="#fcf9f9">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="tujuh" layoutX="14.0" layoutY="355.0" text="Head Lamp" textFill="#f2eded" unCheckedColor="#f8f8f8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXTextField fx:id="carrier" layoutX="213.0" layoutY="34.0" style="-fx-background-color: #ffffff;" unFocusColor="#fcf8f8" />
+            <JFXTextField fx:id="trash" layoutX="213.0" layoutY="79.0" style="-fx-background-color: #ffffff;" unFocusColor="#fcf8f8" />
+            <JFXTextField fx:id="butana" layoutX="213.0" layoutY="187.0" style="-fx-background-color: #ffffff;" unFocusColor="#fcf8f8" />
+            <JFXTextField fx:id="makanan" layoutX="213.0" layoutY="237.0" style="-fx-background-color: #ffffff;" unFocusColor="#f8f8f8" />
+            <JFXTextField fx:id="nesting" layoutX="213.0" layoutY="132.0" style="-fx-background-color: #ffffff;" unFocusColor="#fcf8f8" />
+            <JFXTextField fx:id="tenda" layoutX="213.0" layoutY="300.0" style="-fx-background-color: #ffffff;" unFocusColor="#f8f3f3" />
+            <JFXTextField fx:id="lamp" layoutX="213.0" layoutY="355.0" style="-fx-background-color: #ffffff;" unFocusColor="#f8f5f5" />
+            <Button fx:id="next" layoutX="58.0" layoutY="424.0" mnemonicParsing="false" onAction="#next" style="-fx-background-color: #000000;" text="NEXT" textFill="#f5f5f5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="281.0" layoutY="424.0" mnemonicParsing="false" onAction="#exit" style="-fx-background-color: #000000;" text="EXIT" textFill="#f5f5f5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="back1" layoutX="168.0" layoutY="424.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #000000;" text="BACK" textFill="#f5f5f5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

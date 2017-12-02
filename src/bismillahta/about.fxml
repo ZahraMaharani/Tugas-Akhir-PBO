@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="43.0" prefWidth="29.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillahta.AboutController">
+   <children>
+      <ImageView fitHeight="559.0" fitWidth="376.0">
+         <image>
+            <Image url="@stas-ovsky-249571.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="32.0" layoutY="29.0" opacity="0.63" prefHeight="502.0" prefWidth="318.0" style="-fx-background-color: grey;">
+         <children>
+            <AnchorPane layoutX="37.0" layoutY="100.0" prefHeight="303.0" prefWidth="244.0" style="-fx-background-color: black;">
+               <children>
+                  <Label layoutX="21.0" layoutY="14.0" text="Biodata Pembuat dan Sumber" textFill="#eeeded">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="21.0" layoutY="56.0" text="Zahra Maharani" textFill="#fcf9f9" />
+                  <Label layoutX="21.0" layoutY="79.0" text="Kediri, 23 Maret 2001" textFill="#fcfafa" />
+                  <Label layoutX="21.0" layoutY="103.0" text="IG : @zahramhrn._" textFill="#fcfafa" />
+                  <Label layoutX="21.0" layoutY="127.0" text="Zahraasha@gmail.com" textFill="WHITE" />
+                  <Label layoutX="21.0" layoutY="152.0" text="081217314999" textFill="WHITE" />
+                  <Label layoutX="21.0" layoutY="177.0" text="Sawojajar-Malang" textFill="#fffdfd" />
+                  <Label layoutX="21.0" layoutY="206.0" text="SMK Telkom Malang" textFill="#fffefe" />
+                  <Label layoutX="21.0" layoutY="231.0" text="Sumber :" textFill="#fcfafa" />
+                  <Label layoutX="85.0" layoutY="231.0" text="- Unsplash" textFill="#fffefe" />
+                  <Label layoutX="85.0" layoutY="248.0" text="- Malang Camp" textFill="#f8f8f8" />
+                  <Label layoutX="85.0" layoutY="265.0" text="- Website Lainnya" textFill="#f8f7f7" />
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="exit" layoutX="165.0" layoutY="411.0" onAction="#exit" style="-fx-background-color: black;" text="EXIT" textFill="#fffefe" />
+            <JFXButton fx:id="home" layoutX="223.0" layoutY="411.0" onAction="#home" style="-fx-background-color: black;" text="HOME" textFill="#fffefe" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

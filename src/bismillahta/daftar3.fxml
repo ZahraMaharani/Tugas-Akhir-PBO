@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bismillahta.Daftar3Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@zoltan-kovacs-285132.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="14.0" text="Selamat Mendaki Para Summiters Indonesia!">
+         <font>
+            <Font name="FangSong" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="27.0" layoutY="50.0" opacity="0.59" prefHeight="288.0" prefWidth="546.0" style="-fx-background-color: #30465B;">
+         <children>
+            <JFXTextArea fx:id="hasil" editable="false" layoutX="18.0" layoutY="14.0" />
+            <Label layoutX="91.0" layoutY="211.0" text="Cara Pembayaran" textFill="#fcf9f9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="transfer" layoutX="238.0" layoutY="213.0" mnemonicParsing="false" text="Transfer (0455631267-BNI An. Zahra Maharani)" textFill="WHITE">
+               <toggleGroup>
+                  <ToggleGroup fx:id="pilihan" />
+               </toggleGroup>
+            </RadioButton>
+            <JFXButton fx:id="submit" layoutX="449.0" layoutY="246.0" onAction="#submit" style="-fx-background-color: #000000;" text="SUBMIT" textFill="#f5f0f0" />
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="exit" layoutX="190.0" layoutY="354.0" onAction="#exit" style="-fx-background-color: #000000;" text="EXIT" textFill="#f8f7f7" />
+      <JFXButton fx:id="home" layoutX="257.0" layoutY="354.0" onAction="#home" style="-fx-background-color: #000000;" text="HOME" textFill="#f8f6f6" />
+      <JFXButton fx:id="sewa" layoutX="336.0" layoutY="354.0" onAction="#sewa" style="-fx-background-color: #000000;" text="Sewa Barang" textFill="#fffdfd" />
+   </children>
+</AnchorPane>
